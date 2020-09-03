@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intelligence collective</title>
+    </head>
+        <body>
+            <header>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./whatismarkdown.html">What is Markdown by Joann</a></li>
+                        <li><a href="./origine.html">Origine by Yvan</a></li>
+                        <li><a href="./index.html">Retour à l'index</a></li>
+                        <li><a href="./lepetitplus.html">Offbeat design by Florence</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <article>
+                    <h1>Syntaxe du Markdown</h1>
+                    <section>
+                        <h2>Formatage</h2>
+                        <p>
+                            <span class="span_blockquote">Pour mettre du texte en emphase , ce qui produit une mise en italique dans un navigateur courant :</span> 
+                            <blockquote class="bq_italic">
+                                <code>_Ceci est une phrase en italic_</code>
+                            </blockquote>
+                            <span class="span_blockquote">Pour mettre du texte en grande emphase, ce qui produit une mise en gras dans un navigateur courant :</span>
+                            <blockquote class="bq_gras">
+                                <code>__Ceci est une phrase en gras__</code>
+                            </blockquote>
+                            <span class="span_blockquote">Pour mettre du code dans le texte :</span>
+                            <blockquote class="bq_code">
+                                <code>Mon texte `code` fin de mon texte</code>
+                            </blockquote>
+                            <span>Ou sur plusieurs lignes avec coloration syntaxique selon le langage mis en préfixe :</span>
+                              <blockquote>
+                                <code>
+<pre>
+```php
+Mon code PHP en couleurs
+sur plusieurs lignes
+```
+                                    </pre>
+                                </code>
+                              </blockquote>  
+                            <span class="span_blockquote">Pour un paragraphe de code, mettre quatre espaces devant:</span>
+                            <blockquote class="bq_blockcode">
+<pre>
+   Première ligne de code
+   Deuxième ligne
+</pre> 
+                            </blockquote>
+                            <span class="span_blockquote">Comme dans les courriels, il est possible de faire des citations :</span>
+                            <blockquote class="bq_citation">
+                                > Ce texte apparaîtra dans un élément HTML.
+                            </blockquote>
+                            <span class="span_blockquote">Pour faire un nouveau paragraphe, sauter deux lignes, c'est à dire laisser une ligne vide entre les deux paragraphes. Sauter une seule ligne dans le texte d'origine n'aura aucun effet à l'affichage (l'affichage sera en continu).</span>
+                            <blockquote class="bq_paragraphe">
+<pre>
+Premier paragraphe
+
+Deuxième paragraphe
+</pre>
+                            </blockquote>    
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Listes</h2>
+                        <p>
+                            <p>Sauter une ligne avant le début de la liste.</p>
+                            <span class="span_blockquote">Pour créer une liste non ordonnée :</span>
+                            <blockquote class="bq_ul">
+<pre>
+* Pommes
+* Poires
+    * Sous élément avec au moins quatre espaces devant.
+</pre>
+                            </blockquote>
+                            <span class="span_blockquote">Et une liste ordonnée :</span>
+                            <blockquote class="bq_ol">
+<pre>
+1. mon premier
+2. mon deuxième
+</pre>
+                            </blockquote>
+                            <span class="span_blockquote">Et une liste en mode case à cocher</span>
+                            <blockquote class="bq_checkbox">
+<pre>
+- [ ] Case non cochée
+- [x] Case cochée
+</pre>
+                            </blockquote>
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Titres</h2>
+                        <p>
+                            <span class="span_blockquote">Les titres sont créés avec un certain nombre de # avant le titre, qui correspondent au niveau de titre souhaité</span>
+                            <blockquote class="bq_titres">
+<pre>
+# un titre de premier niveau
+#### un titre de quatrième niveau
+</pre>
+                            </blockquote> 
+                            <span class="span_blockquote">Pour les deux premiers niveaux de titre, il est également possible de souligner le titre avec des = ou des - (leur nombre réel importe peu, mais il doit être supérieur à 2)</span>
+                            <blockquote class="bq_titres_soulignes">
+<pre>
+Titre de niveau 1
+=====================
+Titre de niveau 2
+-------------------
+</pre>
+                            </blockquote>
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Tableaux</h2>
+                        <p>
+                            <span class="span_blockquote">Pour créer des tableaux:</span>
+                            <blockquote class="bq_tableau">
+<pre>
+| Titre 1       |     Titre 2     |        Titre 3 |
+| :------------ | :-------------: | -------------: |
+| Colonne       |     Colonne     |        Colonne |
+| Alignée à     |   Alignée au    |      Alignée à |
+| Gauche        |     Centre      |         Droite |
+</pre>
+                            </blockquote> 
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Liens</h2>
+                        <p>
+                            <span class="span_blockquote">Pour créer des liens:</span>
+                            <blockquote class="bq_lien">
+                                [texte du lien](url_du_lien "texte pour le titre, facultatif")
+                            </blockquote>
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Images</h2>
+                        <p>
+                            <span class="span_blockquote">Pour afficher une image:</span>
+                            <blockquote class="bq_lienImage">
+                                ![Texte alternatif](url_de_l'image "texte pour le titre, facultatif")
+                            </blockquote>
+                        </p>
+                    </section>
+                </article>
+            </main>
+            <footer>
+
+            </footer>
+        </body>
+</html>
+ 
